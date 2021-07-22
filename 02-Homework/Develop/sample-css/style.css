@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(158, 233, 243);
+}
+.card-body {
+    background-color: rgb(233, 210, 181);
+    border: 5px solid black;
+}
+
+.col-12 {
+    background-color: cadetblue;
+    border: 5px solid black;
+}
+    
+
+.card-header {
+    background-color: rgb(158, 233, 243);
+    border: 5px solid black;
+}
