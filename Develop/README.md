@@ -1,3 +1,5 @@
+![Screenshot 2021-07-21 214319](https://user-images.githubusercontent.com/85463607/126591008-90875063-456e-4dfb-92be-47bf0e008c9e.png)
+![team Profile screenshot](https://user-images.githubusercontent.com/85463607/126591011-359d6d09-9a91-4bde-bb0c-d8a28ca9b859.png)
 # teamProfileGenerator
 #  Team Profile Generator
 
