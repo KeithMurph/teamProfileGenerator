@@ -1,13 +1,15 @@
+// Job Titles
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+// global 
 const inquirer = require("inquirer");
 const jest = require("jest");
 const fs = require("fs");
 const generateHTML = require("./util/generateHtml");
-
+// empty team array 
 let team = [];
-
+// promts for new team members
 function newTeamMember() {
   inquirer
     .prompt([
@@ -33,11 +35,12 @@ function newTeamMember() {
         name: "id",
       },
     ])
+    // specific questions for given roles
     .then(function ({ name, role, id, email }) {
       let roleInfo = "";
       if (role === "Engineer") {
         roleInfo = "GitHub?";
-      } else if (role === "intern") {
+      } else if (role === "Intern") {
         roleInfo = "School?";
       } else {
         roleInfo = "Office number?";
